@@ -1,0 +1,24 @@
+{
+  "name": "notification-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host localhost --port 3000 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host localhost --port 3000 --strictPort"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^6.5.0",
+    "@mui/material": "^6.5.0",
+    "axios": "^1.16.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.12"
+  }
+}
